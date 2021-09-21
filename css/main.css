@@ -7,12 +7,45 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+/* Navigation Styling */
+
+.navigation {
+    position: fixed;
+    top: 40px;
+    right: 20px;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+    background: white;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
 /* Sections Styling*/
+
+/* First Section Styling */
 
 .section-1 {
     height: 100vh;
     background: #FF0000;
-    
 }
 
 .section-1 img {
@@ -31,13 +64,13 @@
     text-align: center;
     font-size: 35px;
     margin-top: 30px;
-
 }
+
+/* Second Section Styling */
 
 .section-2 {
     height: 100vh;
     background: #008000;
-    
 }
 
 .section-2 img {
@@ -56,7 +89,30 @@
     text-align: center;
     font-size: 35px;
     margin-top: 30px;
-
 }
 
+/* Third Section Styling */
+
+.section-3 {
+    height: 100vh;
+    background: #FFFF00;
+}
+
+.section-3 img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+    transform: translate(50%, 50%);
+}
+
+.section-3 h2 {
+    color: #008000;
+    width: 50%;
+    height: 50%;
+    transform: translate(50%, 50%);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+}
 
